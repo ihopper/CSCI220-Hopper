@@ -7,7 +7,7 @@ function range(start, end)
 {
     let myArray = new Array();
     for (num = start; num <= end; num++) {
-        myArray[num] = [num];
+        myArray.push(num);
     }
 
     return myArray;
