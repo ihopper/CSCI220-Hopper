@@ -1,0 +1,1 @@
+alert(item1.image);
